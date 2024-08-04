@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-const routes = require("./routes");
 
 // server used to send send emails
 const app = express();
@@ -50,5 +49,3 @@ app.post("/contact", (req, res) => {
     }
   });
 });
-
-module.exports = app;
