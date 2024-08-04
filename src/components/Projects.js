@@ -15,11 +15,13 @@ export const Projects = () => {
       title: "My Portfolio Website",
       description: "A website to showcase my work",
       imgUrl: projImg4,
+      projectUrl: "https://github.com/JamesDMcG/MyPortfolio-Website",
     },
     {
       title: "Bankist Website",
       description: "A website for the Bankist App",
       imgUrl: projImg5,
+      projectUrl: "https://github.com/JamesDMcG/Bankist-Website",
     },
   ];
 
@@ -28,16 +30,19 @@ export const Projects = () => {
       title: "Forkify",
       description: "A recipe book",
       imgUrl: projImg1,
+      projectUrl: "https://github.com/JamesDMcG/Forkify-App",
     },
     {
       title: "Mapty",
       description: "An exercise diary",
       imgUrl: projImg2,
+      projectUrl: "https://github.com/JamesDMcG/Mapty-App",
     },
     {
       title: "Bankist",
       description: "A simple banking app",
       imgUrl: projImg3,
+      projectUrl: "https://github.com/JamesDMcG/Bankist-App",
     },
   ];
 
