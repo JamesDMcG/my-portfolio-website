@@ -9,8 +9,6 @@ In order to get this website up and running, please follow the steps below:
 3. Run `npm run start`. This will run `node server.js` and `react-scripts start` concurrently. Starting the server and spinning up the website.
 4. Navigate to `localhost:3000` to view the website.
 
-Here’s a preview for the README of `my-portfolio-website`:
-
 ---
 
 Techniques and Features
@@ -24,6 +22,7 @@ Technologies and Libraries
 - Google Fonts: Using [Roboto](https://fonts.google.com/specimen/Roboto) for a clean, readable typography style.
 
 Project Structure
+```
 my-portfolio-website/
 ├── build/            # Production build files
 ├── public/           # Static assets like index.html
@@ -32,3 +31,4 @@ my-portfolio-website/
 │   ├── styles/       # Global and component-specific styles
 │   └── utils/        # Helper functions
 └── server.js         # Node.js server for API and routing
+```
